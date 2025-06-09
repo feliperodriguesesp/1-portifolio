@@ -130,7 +130,7 @@ h2 {
 
 .skill {
   border: 1px solid gray;
-  display: block;
+  display: flex;
   border-radius: 6px;
   text-align: center;
   margin: 50px;
