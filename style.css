@@ -34,6 +34,13 @@ body {
   padding-right: 1cm;
 }
 
+.profile_name {
+  float: left;
+  padding-left: 2cm;
+  color: #e6e6e6;
+  font-size: 30px;
+}
+
 .profile_name .contact_info {
   font-size: 15px;
   font-style: italic;
@@ -42,13 +49,6 @@ body {
   flex-direction: row;
 }
 
-.profile_name {
-    float: left;
-    padding-left: 2cm;
-    color: #e6e6e6;
-    font-size: 30px;
-  }
-
 .contact_info img {
   width:25px;
   margin-right: 10px;
@@ -56,7 +56,7 @@ body {
 }
 
 .profile_image {
-    width: 150px;
+    width: 130px;
     height: auto;
     border-radius: 10px;
     display: block;
@@ -114,7 +114,7 @@ h2 {
 }
 
 .profile_image {
-  width: 210px;
+  width: 550px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
@@ -130,10 +130,7 @@ h2 {
 
 .skill {
   border: 1px solid gray;
-  display: flex;
-  flex-direction: column; /* or row if you want icons and text side by side */
-  align-items: center;
-  justify-content: center;
+  display: block;
   border-radius: 6px;
   text-align: center;
   margin: 50px;
